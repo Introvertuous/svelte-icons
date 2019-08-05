@@ -16,7 +16,6 @@
     "target": "esnext",
     "module": "commonjs",
     "lib": ["es2017"],
-    "baseUrl": "scripts",
-    "skipLibCheck": true
+    "baseUrl": "scripts"
   }
 }
