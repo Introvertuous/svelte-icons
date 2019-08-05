@@ -1,7 +1,7 @@
 {
   "name": "svelte-icons",
   "version": "0.0.0-development",
-  "description": "Svg icons for svelte",
+  "description": "Icon components for svelte",
   "author": "Chris Ryan",
   "license": "MIT",
   "scripts": {
