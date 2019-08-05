@@ -15,7 +15,8 @@ npm install --save svelte-icons
 
 ### Usage
 
-Visit the [icon navigator](https://www.svelte-icons.gibdig.com), to quickly search through the available icon sets. Click an icon to copy the import statement to your clipboard.
+Visit the [icon navigator](https://www.svelte-icons.gibdig.com) to search through the available icon sets.
+Click an icon to copy the import statement to your clipboard.
 
 ```
 <script>
