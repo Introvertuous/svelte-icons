@@ -1,0 +1,45 @@
+{
+  "name": "svelte-icons",
+  "version": "0.0.0",
+  "description": "...",
+  "author": "Chris Ryan",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 'no tests here'",
+    "submodule": "git submodule update --init --recursive",
+    "submodule-deinit": "git submodule deinit --all",
+    "build": "ts-node scripts/build.ts",
+    "dev": "watch 'yarn build' components icons"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/cheerio": "^0.22.12",
+    "@types/rimraf": "^2.0.2",
+    "commander": "^2.20.0",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3",
+    "camelcase": "^5.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "copy": "^0.3.2",
+    "feather-icons": "^4.22.1",
+    "glob-promise": "^3.4.0",
+    "ionicons": "^4.6.2",
+    "octicons": "^8.5.0",
+    "rimraf": "^2.6.3",
+    "watch": "^1.0.2"
+  },
+  "files": [
+    "wi",
+    "ti",
+    "md",
+    "io",
+    "go",
+    "gi",
+    "fi",
+    "fa",
+    "di",
+    "components"
+  ]
+}

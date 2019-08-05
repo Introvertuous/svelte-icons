@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "svelte-icons",
+  "env": {
+    "NODE_ENV": "production",
+    "IS_NOW": "true"
+  },
+  "alias": ["svelte-icons.gibdig.com", "www.svelte-icons.gibdig.com"]
+}
