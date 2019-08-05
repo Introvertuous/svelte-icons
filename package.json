@@ -1,20 +1,27 @@
 {
   "name": "svelte-icons",
-  "version": "0.0.0",
-  "description": "...",
+  "version": "0.0.0-development",
+  "description": "Svg icons for svelte",
   "author": "Chris Ryan",
   "license": "MIT",
   "scripts": {
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release",
     "test": "echo 'no tests here'",
     "submodule": "git submodule update --init --recursive",
     "submodule-deinit": "git submodule deinit --all",
     "build": "ts-node scripts/build.ts",
-    "dev": "watch 'yarn build' components icons"
+    "dev": "watch 'yarn build' components icons",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@types/node": "^12.6.8",
     "@types/cheerio": "^0.22.12",
     "@types/rimraf": "^2.0.2",
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "^15.9.9",
+    "travis-deploy-once": "^5.0.3",
     "commander": "^2.20.0",
     "prettier": "^1.18.2",
     "ts-node": "^8.3.0",
@@ -41,5 +48,10 @@
     "fa",
     "di",
     "components"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
