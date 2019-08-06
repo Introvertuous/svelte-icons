@@ -23,5 +23,15 @@ Click an icon to copy the import statement to your clipboard.
   import ChevronCircleUp from 'svelte-icons/fa/FaChevronCircleUp.svelte';
 </script>
 
-<ChevronCircleUp />
+<style>
+  .icon {
+    color: red;
+    width: 32px;
+    height: 32px;
+  }
+</style>
+
+<div class="icon">
+  <ChevronCircleUp />
+</div>
 ```
