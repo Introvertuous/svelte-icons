@@ -36,9 +36,9 @@ Click an icon to copy the import statement to your clipboard.
 </div>
 ```
 
-### Running The Example
+### Running The Example (Icon Navigator)
 
-scripts
+scripts (yarn prefix omitted)
 
 - submodule
 - link (/)
@@ -46,4 +46,4 @@ scripts
 - link svelte-icons (/example)
 - dev (/example)
 
-note: building the example takes a very long time, but technically hot-reloading should be fast, although it seems that rollup is not caching dynamic imports for some reason, which means dev with hot-reload is not possible atm. The current work around is to remove some number of dynamic imports from inside `store.js`.
+[ NOTE / TODO ]: Building the example takes a very long time, but technically hot-reloading should be fast, although it seems that rollup is not caching dynamic imports for some reason, which means dev with hot-reload is not possible atm. The current work around is to remove some number (ideally all but one) of dynamic imports from inside `store.js`, depending on which packages you need during development.
