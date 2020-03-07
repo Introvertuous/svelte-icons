@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "svelte-icons",
   "env": {
     "NODE_ENV": "production",
     "IS_NOW": "true"
