@@ -24,7 +24,7 @@
       await clipboard.writeText(statement);
     }
 
-    notifications.show('copied import statement to clipboard!');
+    notifications.show('Copied Import Statement to Clipboard!', statement);
   };
 </script>
 
