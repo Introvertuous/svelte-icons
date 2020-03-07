@@ -36,8 +36,6 @@ export const load = async category => {
     result = await import('svelte-icons/di');
   } else if (category === 'fa') {
     result = await import('svelte-icons/fa');
-  } else if (category === 'fi') {
-    result = await import('svelte-icons/fi');
   } else if (category === 'gi') {
     result = await import('svelte-icons/gi');
   } else if (category === 'go') {

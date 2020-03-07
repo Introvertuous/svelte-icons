@@ -101,7 +101,6 @@
     <option value="md">Material Design Icons</option>
     <option value="ti">Typicons</option>
     <option value="go">Github Octicons</option>
-    <option value="fi">Feather</option>
     <option value="gi">Game Icons</option>
     <option value="wi">Weather Icons</option>
   </Select>

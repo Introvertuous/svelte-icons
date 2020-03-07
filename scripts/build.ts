@@ -85,6 +85,7 @@ const icons: Icon[] = [
       },
     ],
   },
+  /*
   {
     id: 'fi',
     name: 'Feather',
@@ -98,6 +99,7 @@ const icons: Icon[] = [
       },
     ],
   },
+  */
   {
     id: 'gi',
     name: 'Game Icons',
