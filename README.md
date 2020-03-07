@@ -35,3 +35,15 @@ Click an icon to copy the import statement to your clipboard.
   <ChevronCircleUp />
 </div>
 ```
+
+### Running The Example
+
+scripts
+
+- submodule
+- link (/)
+- dev (/)
+- link svelte-icons (/example)
+- dev (/example)
+
+note: building the example takes a very long time, but technically hot-reloading should be fast, although it seems that rollup is not caching dynamic imports for some reason, which means dev with hot-reload is not possible atm. The current work around is to remove some number of dynamic imports from inside `store.js`.
