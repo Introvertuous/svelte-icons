@@ -1,7 +1,7 @@
 <script>
   import { color, icons, category } from '../store.js';
   import SvelteLogo from '../components/SvelteLogo.svelte';
-  import Notifications from '../components/Notifications.svelte'
+  import Notifications from '../components/Notifications.svelte';
 
   let notifications;
   let timeout = 10000;
@@ -14,19 +14,18 @@
     document.body.removeChild(textArea);
   }
 
-
-  const clipboardFactory = (statement) => async (ev) => {
-    const textArea = document.createElement("textarea");
+  const copy = async (ev, statement) => {
+    const textArea = document.createElement('textarea');
     const { clipboard } = navigator;
 
     if (!clipboard) {
       fallbackCopy(statement);
-    } else { 
+    } else {
       await clipboard.writeText(statement);
     }
 
-    notifications.show("copied import statement to clipboard!");
-  }
+    notifications.show('copied import statement to clipboard!');
+  };
 </script>
 
 <style>
@@ -93,7 +92,10 @@
 </style>
 
 {#each $icons as [name, icon, fetch]}
-  <div on:click={clipboardFactory(fetch)} class="entry" style="--color: {$color};">
+  <div
+    on:click={ev => copy(ev, fetch)}
+    class="entry"
+    style="--color: {$color};">
     <svelte:component this={icon} />
     <label>{name}</label>
   </div>
