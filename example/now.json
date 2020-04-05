@@ -3,6 +3,5 @@
   "env": {
     "NODE_ENV": "production",
     "IS_NOW": "true"
-  },
-  "alias": ["svelte-icons.gibdig.com", "www.svelte-icons.gibdig.com"]
+  }
 }
