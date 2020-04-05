@@ -4,7 +4,6 @@
   "description": "Icon components for svelte",
   "author": "Chris Ryan",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
@@ -55,8 +54,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "workspaces": [
-    "example"
-  ]
+  }
 }

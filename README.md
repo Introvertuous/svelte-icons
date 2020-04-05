@@ -38,6 +38,6 @@ Click an icon to copy the import statement to your clipboard.
 
 ### Running The Example (Icon Navigator)
 
-should be as simple as running `yarn` (at root) and then `yarn dev` (inside `/example`).
+Should be as simple as running `yarn` and then `yarn dev` at root and at `/example` (second terminal).
 
 [ NOTE / TODO ]: Building the example takes a very long time, but technically hot-reloading should be fast, although it seems that rollup is not caching dynamic imports for some reason, which means dev with hot-reload is not possible atm. The current work around is to remove some number (ideally all but one) of dynamic imports from inside `store.js`, depending on which packages you need during development.
