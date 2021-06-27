@@ -28,6 +28,8 @@ export const load = async category => {
    *
    * TODO: Note that HMR is unusably slow when any more that one of these are not commented out,
    * but there must be a better way to do this.
+   *
+   * for now, if you need to test all icon sets, do a `build` and then `start` (production).
    */
 
   const loadingTimeout = setTimeout(() => loading.set(true), 100);

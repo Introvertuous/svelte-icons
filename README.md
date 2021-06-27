@@ -15,7 +15,7 @@ npm install --save svelte-icons
 
 ### Usage
 
-Visit the [icon navigator](https://svelte-icons.vercel.app/) to search through the available icon sets.
+Visit the [icon navigator](https://svelte-icons-explorer.vercel.app/) to search through the available icon sets.
 Click an icon to copy the import statement to your clipboard.
 
 ```
