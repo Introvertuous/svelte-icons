@@ -118,7 +118,7 @@
   </div>
   <ol>
     <li>
-      <a href="https://github.com/gibdig/svelte-icons">
+      <a href="https://github.com/introvertuous/svelte-icons">
         <GithubLogo />
       </a>
     </li>
