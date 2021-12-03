@@ -50,6 +50,17 @@ export const load = async category => {
     result = await import('svelte-icons/ti');
   } else if (category === 'wi') {
     result = await import('svelte-icons/wi');
+  } else if (category === '#all') {
+    result = {
+      ...await import('svelte-icons/di'),
+      ...await import('svelte-icons/fa'),
+      ...await import('svelte-icons/gi'),
+      ...await import('svelte-icons/go'),
+      ...await import('svelte-icons/io'),
+      ...await import('svelte-icons/md'),
+      ...await import('svelte-icons/ti'),
+      ...await import('svelte-icons/wi')
+    };
   }
 
   scrollToTop();

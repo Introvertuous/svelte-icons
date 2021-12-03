@@ -103,6 +103,7 @@
     <option value="go">Github Octicons</option>
     <option value="gi">Game Icons</option>
     <option value="wi">Weather Icons</option>
+    <option value="#all">All Icons</option>
   </Select>
   <div class="filter">
     <input
