@@ -7,6 +7,7 @@
   let timeout = 10000;
 
   function fallbackCopy(data) {
+    const textArea = document.createElement('textarea');
     textArea.value = statement;
     document.body.appendChild(textArea);
     textArea.select();
@@ -15,7 +16,6 @@
   }
 
   const copy = async (ev, statement) => {
-    const textArea = document.createElement('textarea');
     const { clipboard } = navigator;
 
     if (!clipboard) {
