@@ -1,6 +1,6 @@
 {
-  "name": "svelte-icons",
-  "version": "0.0.0-development",
+  "name": "@edde746/svelte-icons",
+  "version": "0.0.3-development",
   "description": "Icon components for svelte",
   "author": "Chris Ryan",
   "license": "MIT",
@@ -12,8 +12,7 @@
     "submodule-deinit": "git submodule deinit --all",
     "build": "ts-node scripts/build.ts",
     "dev": "watch 'yarn build' components icons",
-    "commit": "git-cz",
-    "postinstall": "yarn submodule && yarn link && cd example && yarn link svelte-icons"
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@types/node": "^12.6.8",
@@ -48,6 +47,7 @@
     "fi",
     "fa",
     "di",
+    "hi",
     "components"
   ],
   "config": {

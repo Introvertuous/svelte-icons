@@ -16,3 +16,6 @@
 [submodule "icons/devicons"]
 	path = icons/devicons
 	url = https://github.com/vorillaz/devicons.git
+[submodule "icons/heroicons"]
+	path = icons/heroicons
+	url = https://github.com/tailwindlabs/heroicons.git

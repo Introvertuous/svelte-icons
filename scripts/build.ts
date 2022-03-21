@@ -186,6 +186,20 @@ const icons: Icon[] = [
       },
     ],
   },
+  {
+    id: 'hi',
+    name: 'Heroicons',
+    contents: [
+      {
+        files: path.resolve(iconsDir, 'heroicons/src/solid/*.svg'),
+        formatter: name => `HeroSolid${name}`,
+      },
+      {
+        files: path.resolve(iconsDir, 'heroicons/src/outline/*.svg'),
+        formatter: name => `HeroOutline${name}`,
+      },
+    ],
+  },
 ];
 
 const mkdir = (dir: string) => {
